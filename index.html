@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
     <h1>Ad block list for Nepali Sites</h1>
@@ -11,7 +12,7 @@
     let url = encodeURIComponent("https://raw.githubusercontent.com/sndsabin/swaccha-adblock-filter/master/swaccha-static-adblock-filters.txt");
     let title = encodeURIComponent("Swaccha");
     const anchor = document.createElement("a");
-    anchor.href = `https://subscribe.adblockplus.org/?location=${url}]&title=${title}`;
+    anchor.href = `https://subscribe.adblockplus.org/?location=${url}&title=${title}`;
     anchor.innerHTML = "स्वच्छ";
     document.body.appendChild(anchor);
   </script>
